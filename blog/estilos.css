@@ -3,6 +3,7 @@
     border-width: 0;
     border-style: solid;
     border-color: #e5e7eb;
+    
 }
 
 html {
@@ -10,12 +11,14 @@ html {
         "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 1.5;
+    
 }
 
 body {
     font-family: inherit;
     line-height: inherit;
     margin: 0;
+    
 }
 
 a {
@@ -26,7 +29,8 @@ a {
 header {
     position:relative;
     padding: 1.5rem 0;
-    
+    background-color: #4b5361;
+       
 }
 
 header nav {
@@ -38,6 +42,8 @@ header nav {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    background-color: #4b5361;
+    
 }
 
 main {
@@ -50,18 +56,21 @@ main {
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .left-nav {
     flex: 1 1 0%;
     align-items: center;
     display: flex;
+    
 }
 
 .image-content {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    
 }
 
 .profile-pic {
@@ -73,12 +82,14 @@ main {
 .name-content {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+    
 }
 
 .name-content a {
     --tw-text-opacity: 1;
-    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    color: #e9ecf0;
     font-weight: 500;
+    
 }
 
 .contact-content a {
@@ -98,6 +109,7 @@ main {
     color: rgba(255, 255, 255, var(--tw-text-opacity));
     --tw-bg-opacity: 1;
     --tw-text-opacity: 1;
+    background-color: #043aa6;
 }
 
 .blog-description {
